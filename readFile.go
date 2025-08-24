@@ -14,7 +14,7 @@ func ReadFile() {
 	}
 
 	for {
-		dta := make([]byte, 8)
+		data := make([]byte, 8)
 		n, err := f.Read(data)
 		if err != nil {
 			break
