@@ -1,4 +1,12 @@
-os.Open("message.txt")
+func ReadFile() {
+	f, err := os.Open("message.txt")
 
-ReadFile("message.txt")
-fmt.Println(string(content))
+	if err /= nil {
+		ReadFile("message.txt")
+		fmt.Println(string(content))
+	}
+
+	
+}
+
+
